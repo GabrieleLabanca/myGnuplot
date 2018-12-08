@@ -1,0 +1,33 @@
+# line styles for ColorBrewer Dark2
+# for use with qualitative/categorical data
+# provides 8 dark colors based on Set2
+# compatible with gnuplot >=4.2
+# author: Anna Schneider
+
+# line styles
+set style line 1  lt 1 lc rgb '#7a1214' # darkest red
+set style line 2  lt 1 lc rgb '#a5181b' # dark red
+set style line 3  lt 1 lc rgb '#8918a3' # purple
+set style line 4  lt 1 lc rgb '#4918a3' # deep blue
+set style line 5  lt 1 lc rgb '#2a2ad6' # blue
+set style line 6  lt 1 lc rgb '#2780c4' # light blue
+set style line 7  lt 1 lc rgb '#1bb598' # aquamarine
+set style line 8  lt 1 lc rgb '#20d626' # light green
+set style line 9  lt 1 lc rgb '#0b9336' # dark green
+set style line 10 lt 1 lc rgb '#b3f215' # acid green
+set style line 11 lt 1 lc rgb '#f2e315' # yellow
+set style line 12 lt 1 lc rgb '#f9a107' # orange
+set style line 13 lt 1 lc rgb '#f96807' # dark orange
+set style line 14 lt 1 lc rgb '#b5500c' # brown
+
+# palette
+set palette maxcolors 8
+set palette defined ( 0 '#D63E40',\
+    	    	      1 '#1e841d',\
+		      2 '#3E40D6',\
+		      3 '#D69A04',\
+		      4 '#04D69A',\
+		      5 '#9A04D6',\
+		      6 '#2A840B',\
+		      7 '#666666' )
+
